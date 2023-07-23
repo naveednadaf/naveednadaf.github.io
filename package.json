@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "node": "^20.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "naveednadaf.github.io",
+  "description": "This is apersonal portfolio website",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

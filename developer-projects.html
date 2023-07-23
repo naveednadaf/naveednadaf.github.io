@@ -1,58 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naveed Nadaf</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <nav class="navbar">
+    <nav class="navbar py-0">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo"><img class="logo" src="/images/logo-01.svg" width="80px" height="80px" ></a>
+            <a href=""><img class="logo my-auto" src="images/logo-01.svg" width="80px" height="80px"></a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
+            <ul class="navbar__menu my-0 ">
+                <li class="navbar__item ">
+                    <a href="/" class="navbar__links navbar_txt ">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="index.html#about__part" class="navbar__links">About</a>
+                    <a href="index.html#about__part" class="navbar__links navbar_txt">About</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="index.html#projects__part" class="navbar__links">Projects</a>
+                    <a href="index.html#projects__part" class="navbar__links navbar_txt">Projects</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="index.html#contact__part" class="navbar__links">Contact</a>
+                    <a href="index.html#contact__part" class="navbar__links navbar_txt">Contact</a>
                 </li>
             </ul>
-        </div>   
+        </div>
     </nav>
-    
-    <!-- Hero Section-->
-    <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h2>UNDER CONSTRUCTION....</h2>
-            </div>
-            
-            <div class="temp__img--container">
-                <img src="images/under_construction.svg" alt="under_construction" id="temp__img">
+
+    <!-- `Main Section-->
+    <div class="main min-vh-100">
+        <div class="col-md-10 m-auto pt-5">
+            <div class="container">
+                <div class="row d-flex justify-content-around ">
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="card bg-dark text-light " style="width: 24rem;">
+                            <img src="/images/New Project.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title px-2">AutoCAD Plugin</h5>
+                                <p class="card-text p-2">
+                                    Developed AutoCAD Plugin using AutoLISP, self-taught. It generates screen enclosure
+                                    drawings with input measurements. Enhanced productivity by 70%, saving significant
+                                    time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="card bg-dark text-light" style="width: 24rem;">
+                            <img src="/images/SCR-20230718-qgqw.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title px-2">Stacks Of Wax Website</h5>
+                                <p class="card-text p-2">
+                                    Developed Stacks of Wax, a music collection web app. User-friendly interface, secure
+                                    storage, dynamic search. Used HTML, CSS, JavaScript, Express Node framework.
+                                    Showcased web dev skills.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="card bg-dark text-light" style="width: 24rem;">
+                            <img src="/images/SCR-20230718-puaz.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title px-2">Portfolio Website</h5>
+                                <p class="card-text p-2">
+                                    This portfolio website exhibits my work. Home page built without
+                                    libraries/frameworks, focusing on foundational learning. Self-taught prior to
+                                    university studies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-around py-5">
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="card bg-dark text-light" style="width: 24rem;">
+                            <img src="/images/SCR-20230720-lxxc.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title px-2">Climate Catastrophe Game</h5>
+                                <p class="card-text p-2">
+                                    Developed Climate Catastrophe: a team-created Java text game. Simulates
+                                    climate-themed monopoly board game. Save planet through strategic decisions.
+                                    Showcased teamwork, real-world app development. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="card bg-dark text-light" style="width: 24rem;">
+                            <img src="/images/expensetracker_app.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title px-2">Expense Tracker App</h5>
+                                <p class="card-text p-2">
+                                    Currently working on the development of an expense tracker mobile application using
+                                    Flutter. This project is an integral part of my dissertation, showcasing my skills
+                                    in app development and research.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="card bg-dark text-light" style="width: 24rem;">
+                            <img src="/images/SCR-20230720-prko.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title px-2">Lottery System</h5>
+                                <p class="card-text p-2">
+                                    A paper-based lottery system was converted into a software solution. With each
+                                    feature-based iteration, the Agile development methodology was mimicked, boosting
+                                    efficiency with each. A simple lottery system was successfully developed. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
     </div>
 
-  <!-- Footer -->
-  <div class="footer">
-    <p>Designed & Built by Naveed N Nadaf</p>
-</div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>Designed & Built by Naveed N Nadaf</p>
+    </div>
 
 
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
